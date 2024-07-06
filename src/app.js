@@ -5,7 +5,7 @@ import "./style.css";
 let pro = ["the", "my", "our"];
 let adj = ["beautiful", "playful", "funny"];
 let noun = ["puppy", "day", "coffee"];
-let dot = [".us", ".com", ".net"];
+let dot = [".us", ".com", ".net", ".info"];
 
 for (let i = 0; i < pro.length; i++) {
   const a = pro[i];
