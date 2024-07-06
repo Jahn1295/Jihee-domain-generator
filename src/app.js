@@ -2,10 +2,21 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+let pro = ["the", "my", "our"];
+let adj = ["beautiful", "playful", "funny"];
+let noun = ["puppy", "day", "coffee"];
+let dot = [".us", ".com", ".net"];
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+for (let i = 0; i < pro.length; i++) {
+  const a = pro[i];
+  for (let j = 0; j < adj.length; j++) {
+    const b = adj[j];
+    for (let k = 0; k < noun.length; k++) {
+      const c = noun[k];
+      for (let l = 0; l < dot.length; l++) {
+        const d = dot[l];
+        console.log(a + b + c + d);
+      }
+    }
+  }
+}
